@@ -15,6 +15,6 @@ for i in range(200):
 
 
 sys.stdin = open("./data/2.3/TransCost.txt", "r")
-sys.stdout = open("./data/2.3/TranCost.csv", "w")
+sys.stdout = open("./data/2.3/TransCost.csv", "w")
 for i in range(10):
     print(input().replace("\t", ", "))
