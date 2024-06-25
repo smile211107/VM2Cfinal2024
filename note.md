@@ -29,3 +29,12 @@ Vùng: HCM city
 Ước lượng lượng tiêu thụ: 
 $$ \text{dân số hcm} * (\text{\%có việc làm} * \text{trung bình trong [3, 5]kg}  + \text{\%không có việc làm} * \text{trung bình trong [1, 3]kg} ) * \text{tần số mua hàng} * 12 =  
 $$
+
+### 2.5
+- Data distribute theo normal distribution
+- Cho avg và std => gen ra được normal distribution => dự đoán năm tiếp theo dựa trên normal distribution => data
+- Chỉ dựa vào distribution do không có lịch sử bán hàng
+- 2.3 + 2.4
+- Failed attempt(s): 
+    - Plug old result into model
+    - Online query
