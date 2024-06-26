@@ -24,6 +24,4 @@ def txt_to_csv(filenameWithoutExtension, header):
     sys.stdin = inp
     sys.stdout = out
 
-txt_to_csv("./data/2.5/Facility", ["id", "x", "y", "capacity", "cost"])
-txt_to_csv("./data/2.5/DemandRand", ["id", "x", "y", "avg", "std"])
-txt_to_csv("./data/2.5/TransCost", None)
+txt_to_csv("./data/2.6/Demand", ["id", "x", "y", "require"])

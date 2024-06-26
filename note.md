@@ -38,3 +38,7 @@ $$
 - Failed attempt(s): 
     - Plug old result into model
     - Online query
+
+### 2.6
+Failed attempt(s):
+- Density distribution (DBSCAN)
