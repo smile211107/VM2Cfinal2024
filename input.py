@@ -14,7 +14,7 @@ def txt_to_csv(filenameWithoutExtension, header, delimiter="\t"):
         print(", ".join(header))
     while True:
         try:
-            temp = input()
+            temp = input().strip()
             if temp.count(delimiter) < header_len - 1:
                 raise RuntimeError("Number of header doesn't match number of columns")
             print(temp.replace(delimiter, ","))
@@ -26,4 +26,4 @@ def txt_to_csv(filenameWithoutExtension, header, delimiter="\t"):
 
 txt_to_csv("./data/2.6/Demand", ["id", "x", "y", "require"])
 txt_to_csv("./data/2.6/Facility", ["id", "x", "y", "capacity", "cost"], delimiter=" ")
-# txt_to_csv("./data/2.6/TransCost", header=None)
+txt_to_csv("./data/2.6/TransCost", header=None, delimiter=" ")
