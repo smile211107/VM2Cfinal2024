@@ -1,4 +1,2 @@
-env
-train
-*.lic
-main.*
+*.*
+!checker/*.*
