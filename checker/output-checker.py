@@ -20,6 +20,7 @@ for i in range(1,len(input_lines)-1):
 previous_choose = np.array([0,1,0,1,0,1,0,1,1,0])
 # print(previous_choose)
 # previous_choose = np.array([0,0,1,1,0,1,0,1,1,0])
+# Not imple for 2.2.2
 MAX_CAPACITY = 1000
 
 for i in range(nFacility):
