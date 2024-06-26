@@ -1,0 +1,14 @@
+Minimum cost for 6 clusters is 9479.000909382596 
+Minimum cost for 7 clusters is 10510.706317255046 
+Minimum cost for 8 clusters is 4287.373209896861 
+Minimum cost for 9 clusters is 3048.865258475761 
+Minimum cost for 10 clusters is 2819.873411921211 
+Minimum cost for 11 clusters is 2806.1887005662156 
+Minimum cost for 12 clusters is 2675.7843440568254 
+Minimum cost for 13 clusters is 2694.3758338951625 
+Minimum cost for 14 clusters is 2553.1326999154817 
+Minimum cost for 15 clusters is 2549.3911603743218 
+Minimum cost for 16 clusters is 2575.807524537374 
+Minimum cost for 17 clusters is 2602.6718391654254 
+Minimum cost for 18 clusters is 2482.4110625771464 
+Minimum cost for 19 clusters is 2438.171651133759 
