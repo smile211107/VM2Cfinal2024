@@ -1,7 +1,7 @@
 import sys
 
 
-def txt_to_csv(filenameWithoutExtension, header):
+def txt_to_csv(filenameWithoutExtension, header, delimiter="\t"):
     inp = sys.stdin
     out = sys.stdout
     header_len = 0
@@ -15,15 +15,15 @@ def txt_to_csv(filenameWithoutExtension, header):
     while True:
         try:
             temp = input()
-            if temp.count("\t") < header_len - 1:
-                raise RuntimeError("Number of header is not enough")
-            print(temp.replace("\t", ","))
+            if temp.count(delimiter) < header_len - 1:
+                raise RuntimeError("Number of header doesn't match number of columns")
+            print(temp.replace(delimiter, ","))
         except EOFError:
             break
 
     sys.stdin = inp
     sys.stdout = out
 
-txt_to_csv("./data/2.2.1/Demand", ["id", "x", "y", "require"])
-txt_to_csv("./data/2.2.1/Facility", ["id", "x", "y", "capacity", "cost"])
-txt_to_csv("./data/2.2.1/TransCost", header=None)
+txt_to_csv("./data/2.6/Demand", ["id", "x", "y", "require"])
+txt_to_csv("./data/2.6/Facility", ["id", "x", "y", "capacity", "cost"], delimiter=" ")
+# txt_to_csv("./data/2.6/TransCost", header=None)
