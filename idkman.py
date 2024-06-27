@@ -4,7 +4,6 @@ from gurobipy import *
 from matplotlib import pyplot as plt
 from sklearn.datasets import make_blobs
 from sklearn.cluster import KMeans
-import sys
 
 BUILD_COST = 40
 CAPACITY = 1000
